@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main.fondo-de-estrellas{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(../../public/bg2.jpg);
+  background-position-x: center;
+  background-size: cover;
+  opacity: 1;
+}
+
+@keyframes bgAnimate {
+  0%,100%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+}
+
+span.star{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 0 4px rgba(255,255,255,0.1), 0 0 16px rgba(255, 255, 255, 1);
+  animation: starFalling 5s linear infinite;
+  opacity: 0;
+}
+
+span.star::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient( 90deg , #fff, transparent);
+}
+
+span.star:nth-child(1){
+  top: -15px;
+  right: 350px;
+  left: initial;
+  width: 6px;
+  height: 6px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+span.star:nth-child(2){
+  top: -15px;
+  right: 180px;
+  left: initial;
+  animation-delay: 5s;
+  animation-duration: 9s;
+  animation-fill-mode: both;
+}
+
+span.star:nth-child(3){
+  top: -15px;
+  right: 100px;
+  left: initial;
+  animation-delay: 16s;
+  animation-duration: 7s;
+}
+
+span.star:nth-child(4){
+  top: -15px;
+  right: 35px;
+  left: initial;
+  animation-delay: 64s;
+  animation-duration: 3s;
+}
+
+span.star:nth-child(5){
+  top: 120px;
+  right: -15px;
+  left: initial;
+  animation-delay: 80s;
+  animation-duration: 9s;
+}
+
+span.star:nth-child(6){
+  top: 340px;
+  right: -15px;
+  left: initial;
+  animation-delay: 24s;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+
+span.star:nth-child(7){
+  top: -15px;
+  right: 435px;
+  left: initial;
+  animation-delay: 56s;
+  animation-duration: 6s;
+}
+
+span.star:nth-child(8){
+  top: -15px;
+  right: 580px;
+  left: initial;
+  animation-delay: 32s;
+  animation-duration: 5s;
+}
+
+span.star:nth-child(9){
+  top: -15px;
+  right: 748px;
+  left: initial;
+  animation-delay: 64s;
+  animation-duration: 8s;
+}
+
+span.star:nth-child(10){
+  top: -15px;
+  right: 910px;
+  left: initial;
+  animation-delay: 8s;
+  animation-duration: 6s;
+}
+
+span.star:nth-child(11){
+  top: -15px;
+  right: 1050px;
+  left: initial;
+  animation-delay: 40s;
+  animation-duration: 11s;
+}
+
+span.star:nth-child(12){
+  top: -15px;
+  right: 1210px;
+  left: initial;
+  animation-delay: 72s;
+  animation-duration: 9s;
+}
+
+span.star:nth-child(13){
+  top: -15px;
+  right: 350px;
+  left: initial;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+span.star:nth-child(14){
+  top: 420px;
+  right: -15px;
+  left: initial;
+  animation-delay: 8s;
+  animation-duration: 4s;
+}
+
+span.star:nth-child(15){
+  top: 20px;
+  right: -15px;
+  left: initial;
+  animation-delay: 48s;
+  animation-duration: 14s;
+}
+
+@keyframes starFalling{
+  0%{
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+    transform: rotate(315deg) translateX(-1600px);
+  }
+}
+
+@keyframes starFalling{
+  0%{
+    transform: rotate(315deg) translateX(0);
+  }
+
+  50%{
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+    transform: rotate(315deg) translateX(-1600px);
+  }
+}
