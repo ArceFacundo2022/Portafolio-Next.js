@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { advent_Pro, chakra, poppins, vollkorn } from "../lib/Components/Fonts";
 
 export const metadata: Metadata = {
   title: "Portafolio - Arce Facundo - Software Developer",
@@ -16,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${inter.className} w-full `}>{children}</body>
+      <body className={`${poppins.variable} ${vollkorn.variable} ${advent_Pro.variable} ${chakra.variable} w-full font-Poppins `}>{children}</body>
     </html>
   );
 }

@@ -2,14 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow-x: hidden;
+}
+
 main.fondo-de-estrellas{
-  overflow: hidden;
+  overflow-y: hidden;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background: url(../../public/bg2.jpg);
+  background: url(../../../public/bg2.jpg);
   background-position-x: center;
   background-size: cover;
   opacity: 1;
@@ -39,6 +43,7 @@ span.star{
   box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 0 4px rgba(255,255,255,0.1), 0 0 16px rgba(255, 255, 255, 1);
   animation: starFalling 5s linear infinite;
   opacity: 0;
+  z-index: 10;
 }
 
 span.star::before{
@@ -49,6 +54,7 @@ span.star::before{
   width: 300px;
   height: 1px;
   background: linear-gradient( 90deg , #fff, transparent);
+  z-index: 10;
 }
 
 span.star:nth-child(1){
@@ -183,22 +189,51 @@ span.star:nth-child(15){
 
   100%{
     opacity: 0;
-    transform: rotate(315deg) translateX(-1600px);
+    transform: rotate(315deg) translateX(-800px);
   }
 }
 
-@keyframes starFalling{
+/* ---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------- */
+
+h2.whoIm{
+  color: #fff;
+}
+
+h2.whoIm span{
+  position: relative;
+  color: rgba(255, 255, 255, 0.1);
+  animation: displayText 9s infinite;
+  animation-delay: calc(-3s * var(--i));
+}
+
+@keyframes displayText{
   0%{
-    transform: rotate(315deg) translateX(0);
+    display: inline-block;
   }
-
-  50%{
-    transform: rotate(315deg) translateX(0);
-    opacity: 1;
+  33.33%,100%{
+    display: none;
   }
+}
 
-  100%{
-    opacity: 0;
-    transform: rotate(315deg) translateX(-1600px);
+h2.whoIm span::before{
+  content: attr(data-text);
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  color: rgb(66, 108, 247);
+  overflow: hidden;
+  border-right: 4px solid rgba(26, 57, 233);
+  filter: drop-shadow(0 0 5px rgba(26, 57, 233) drop-shadow(0, 0, 25px rgba(26, 57, 233)));
+  animation: lightText 3s linear infinite;
+}
+
+@keyframes lightText{
+  0%,10%,100%{
+    width: 0;
+  }
+  70%,90%{
+    width: 105%;
   }
 }
