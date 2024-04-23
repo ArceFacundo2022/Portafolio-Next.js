@@ -1,5 +1,3 @@
-import React from "react";
-
 import PORFOLIO_FOTO from "@/../../public/foto_porta_2.png";
 import { Tooltip, Image } from "@nextui-org/react";
 import NextImage from "next/image";

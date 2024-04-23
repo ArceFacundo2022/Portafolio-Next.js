@@ -14,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${poppins.variable} ${vollkorn.variable} ${advent_Pro.variable} ${chakra.variable} w-full font-Poppins `}>{children}</body>
+      <body className={`${poppins.variable} ${vollkorn.variable} ${advent_Pro.variable} ${chakra.variable} w-full font-Poppins `}>
+        {children}
+      </body>
     </html>
   );
 }

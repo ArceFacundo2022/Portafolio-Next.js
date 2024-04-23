@@ -1,6 +1,7 @@
 import { Stars } from "@/app/lib/Components/Stars"
 import { NavBar } from "../lib/Components/NavBar"
-import { Section_Hero } from "../lib/Components/Section_Hero";
+import { Section_Hero } from "../lib/Components/Sections/Section_Hero";
+import { Section_Projects } from "../lib/Components/Sections/Section_Projects";
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
         <Stars/>
       </main>
       <Section_Hero/>
-      
+      <Section_Projects/>
     </>
   );
 }
