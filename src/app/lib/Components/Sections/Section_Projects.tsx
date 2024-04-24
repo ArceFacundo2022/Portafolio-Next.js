@@ -9,7 +9,7 @@ export const Section_Projects = () => {
         <div className="py-20 flex align-middle justify-center">
             <h1 className=" font-Vollkorn text-3xl text-white border-b-2 border-blue-600">{"🔅 PROYECTOS PRINCIPALES 🔅"}</h1>
         </div>
-        <section className=" bg-blue-950/25 p-5 rounded-lg grid grid-cols-6 gap-6">
+        <section className="bg-gradient-to-r from-green-950/55 via-purple-950/55 to-blue-950/55 p-5 rounded-lg grid grid-cols-6 gap-6">
             <Card_API_RaM/>
             <Card_EmpleosF/>
             <Card_MediLab/>

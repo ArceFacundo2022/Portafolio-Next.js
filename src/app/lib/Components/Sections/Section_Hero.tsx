@@ -1,6 +1,7 @@
-import PORFOLIO_FOTO from "@/../../public/foto_porta_2.png";
-import { Tooltip, Image } from "@nextui-org/react";
+import PORFOLIO_FOTO from "@/../../public/img/foto_porta_2.png";
+import { Tooltip, Image, Button } from "@nextui-org/react";
 import NextImage from "next/image";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export const Section_Hero = () => {
   const style_span = {
@@ -58,8 +59,8 @@ export const Section_Hero = () => {
           <p className="font-Poppins text-sm text-slate-400/80 py-1 2xl:text-2xl xl:text-lg sm:text-sm">
             <strong className="text-blue-500/60">
               Desarrollador FullStack
-            </strong>{" "}
-            residente de{" "}
+            </strong>
+            {" residente de "}
             <strong className="text-blue-500/60">Formosa - Argentina</strong>
           </p>
           <p className="font-Poppins text-sm text-slate-400/80 py-1 2xl:text-2xl xl:text-lg sm:text-sm">
@@ -75,8 +76,43 @@ export const Section_Hero = () => {
             </Tooltip>
             . Determinado a aprender y mejorar día a día.
           </p>
+
+          <p className="pt-3 text-white font-Chakra 2xl:text-xl xl:text-lg sm:text-sm text-sm">
+            Email de contacto:
+          </p>
+          <strong className="text-blue-700 font-Poppins 2xl:text-lg xl:text-lg sm:text-sm text-sm rounded-full px-2 bg-slate-800">arcefacundosebastian@hotmail.com</strong>
+
         </div>
+        <div className="flex gap-2">
+          <a href="https://github.com/ArceFacundo2022">
+            <Button  
+            size="md" isIconOnly aria-label="Github" 
+            radius="full" className="bg-gradient-to-tr  from-indigo-900 to-blue-900 border-small border-white/50 shadow-blue-950/30 text-white text-xl shadow-lg py-0"
+            >
+              <SiGithub/>
+            </Button>
+          </a>
+
+          <a href="https://www.linkedin.com/in/facundo-sebastian-arce-9699992b8/">
+            <Button 
+            size="md" isIconOnly aria-label="LinkedIn" 
+            radius="full" className="bg-gradient-to-tr  from-indigo-900 to-blue-900 border-small border-white/50 shadow-blue-950/30 text-white text-xl shadow-lg"
+            >
+              <SiLinkedin/>
+            </Button>
+          </a>
+          <a href="/file/CV-Arce-Facundo.pdf">
+            <Button 
+            size="md" isIconOnly aria-label="LinkedIn" 
+            radius="full" className="bg-gradient-to-tr  from-indigo-900 to-blue-900 border-small border-white/50 shadow-blue-950/30 text-white text-xl shadow-lg"
+            >
+              CV
+            </Button>
+          </a>
+        </div>
+
       </section>
+
       <section
         className="
           flex justify-end items-end absolute -z-0 bottom-[0vh]

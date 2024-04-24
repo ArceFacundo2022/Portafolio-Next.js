@@ -26,7 +26,7 @@ export const Stage_Process_Medilab = () => {
                         removeWrapper
                         alt="Card MediLab project"
                         className="w-full h-full object-cover"
-                        src="/Arquitectura.png"
+                        src="/img/Arquitectura.png"
                     />
                 </div>
             </main>

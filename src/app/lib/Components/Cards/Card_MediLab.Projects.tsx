@@ -18,27 +18,27 @@ export const Card_MediLab = () => {
 
     const images = [
         {
-            original: "/MediLab_img01.png",
-            thumbnail: "/MediLab_img01.png",
+            original: "/img/MediLab_img01.png",
+            thumbnail: "/img/MediLab_img01.png",
         },
         {
-            original: "/MediLab_img02.png",
-            thumbnail: "/MediLab_img02.png",
+            original: "/img/MediLab_img02.png",
+            thumbnail: "/img/MediLab_img02.png",
         },
     ];
 
     return (
     <>
-        <Card isFooterBlurred className="w-full h-[300px] col-span-2 border-4 border-blue-950 ring-2 ring-blue-600">
+        <Card isFooterBlurred className="w-full h-[300px] col-span-2 border-4 border-blue-950 ring-2 ring-blue-600 shadow-xl shadow-blue-900">
             <CardHeader className="absolute z-10 top-0 flex-col items-start bg-opacity-50 backdrop-blur-sm">
                 <p className="text-tiny text-white/60 uppercase font-bold">2022</p>
-                <h4 className="text-blue-800 font-Vollkorn text-2xl font-bold">MEDILAB</h4>
+                <h4 className="text-blue-600 font-Vollkorn text-2xl font-bold">MEDILAB</h4>
             </CardHeader>
             <Image
                 removeWrapper
                 alt="Card MediLab project"
                 className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-                src="/MediLab_img01.png"
+                src="/img/MediLab_img01.png"
             />
             <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
                 <div>

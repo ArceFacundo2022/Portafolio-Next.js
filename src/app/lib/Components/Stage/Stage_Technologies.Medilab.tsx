@@ -109,6 +109,7 @@ export const Stage_Technologies_Medilab = () => {
                                     <strong className=" rounded-full bg-[#101626] border-2 border-blue-600 px-2 text-white text-sm">JWT</strong>
                                     <strong className="rounded-full bg-[#101626] border-2 border-blue-600 px-2 text-white text-sm">SCRUM</strong>
                                     <strong className="rounded-full bg-[#101626] border-2 border-blue-600 px-2 text-white text-sm">REST</strong>
+                                    <strong className="rounded-full bg-[#101626] border-2 border-blue-600 px-2 text-white text-sm">VITE</strong>
                                 </div>
                             </section>
                         </main>
