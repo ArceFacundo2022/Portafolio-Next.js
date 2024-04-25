@@ -329,3 +329,44 @@ h2.whoIm span::before{
   filter: drop-shadow(0 0 20px #fff);
   color: #fff;
 }
+
+/* ---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------- */
+
+.experience-text .marco{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 120%;
+  transition: 0.5s;
+  z-index: 1000;
+  top: -10px;
+}
+
+.experience-text:hover .marco::before{
+  inset: 0 0;
+  transform: rotate(-10deg)
+}
+
+.experience-text:hover .marco::after{
+  inset: 0 -4px;
+  transform: rotate(5deg);
+}
+
+.experience-text .marco::before{
+  content: "";
+  position: absolute;
+  inset: 0 8px;
+  border-left: 3px solid #093c66;
+  border-right: 3px solid #093c66;
+  transition: 1s;
+}
+
+.experience-text .marco::after{
+  content: "";
+  position: absolute;
+  inset: 8px 0;
+  border-top: 3px solid #093c66;
+  border-bottom: 3px solid #093c66;
+  transition: 1s;
+}
