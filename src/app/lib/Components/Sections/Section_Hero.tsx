@@ -22,6 +22,7 @@ export const Section_Hero = () => {
       className="
             w-full h-screen grid grid-cols-8 px-6 z-10 
             2xl:px-20 xl:px-16 lg:px-12 md:px-10 sm:px-8"
+      id="section_hero"
     >
       <section
         className="
