@@ -25,6 +25,9 @@ export const NavBar = () => {
                   <a onClick={()=>{ScrollTo("section_technologies",0)}}>
                     <span className="font-Chakra text-xl font-bold text-white hover:text-blue-600/75 cursor-pointer">TECNOLOGÍAS</span>
                   </a>
+                  <a onClick={()=>{ScrollTo("section_about_me",0)}}>
+                    <span className="font-Chakra text-xl font-bold text-white hover:text-blue-600/75 cursor-pointer">SOBRE MI</span>
+                  </a>
                 </div>
             </div>
         </div>

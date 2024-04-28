@@ -340,7 +340,6 @@ h2.whoIm span::before{
   height: 120%;
   transition: 0.5s;
   z-index: 1000;
-  top: -10px;
 }
 
 .experience-text:hover .marco::before{

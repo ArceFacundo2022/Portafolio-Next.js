@@ -45,7 +45,7 @@ export const Section_Studies = () => {
                         />
                     </div>
                     <div className="col-span-4 text-sm text-slate-400/75 py-3 pr-3">
-                        <h2 className="text-lg font-semibold font-Vollkorn text-cyan-500 pb-2">Colegio Universitario IES Ciclo 21”</h2>
+                        <h2 className="text-lg font-semibold font-Vollkorn text-cyan-500 pb-2">Colegio Universitario IES Ciclo 21</h2>
                         <p>Cursado la carrera “Técnico Superior en diseño de videojuegos y simuladores virtuales” hasta el ultimo semestre (pausado por falta de fondos)</p>
                         <div className="flex justify-between gap-3 font-thin pt-2 text-cyan-500/40">
                             <p>Del 2019 hasta el 2021</p>
@@ -67,7 +67,7 @@ export const Section_Studies = () => {
                         />
                     </div>
                     <div className="col-span-4 text-sm text-slate-400/75 py-3 pr-3">
-                        <h2 className="text-lg font-semibold font-Vollkorn text-cyan-500 pb-2">IAC - Instituto Argentino de Computación”</h2>
+                        <h2 className="text-lg font-semibold font-Vollkorn text-cyan-500 pb-2">IAC - Instituto Argentino de Computación</h2>
                         <p>Curso de Diseño grafico de 6 meses.</p>
                         <div className="flex justify-between gap-3 font-thin pt-2 text-cyan-500/40">
                             <p>Cursado el año 2017</p>
@@ -88,18 +88,18 @@ export const Section_Studies = () => {
                     <div>
                         <Image
                             as={NextImage}
-                            width={2175}
+                            width={1295}
                             height={3000}
                             removeWrapper
-                            alt="Logo IAC (Instituto Argentino de Computacion)"
-                            className=" max-x-[2175px] max-h-[3000px] w-full h-[75vh] z-10"
+                            alt="Chico jugando distraido"
+                            className=" max-x-[1295px] max-h-[3000px] w-full h-[75vh] z-10"
                             src="/img/gamestation.png"
                         />
                     </div>
                 </div>
                 <div className="flex flex-col justify-center h-[68vh] font-Vollkorn text-cyan-300 text-center text-2xl w-3/4">
                     <div className="p-2 experience-text relative">
-                        <div className="marco"></div>
+                        <div className="marco top-[-10px]"></div>
                         <h2>
                             Tengo Experiencia...
                         </h2>
@@ -120,3 +120,4 @@ export const Section_Studies = () => {
     </main>
   )
 }
+
