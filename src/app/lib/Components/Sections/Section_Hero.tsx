@@ -1,7 +1,9 @@
+'use client'
+
 import PORFOLIO_FOTO from "@/../../public/img/foto_porta_2.png";
 import { Tooltip, Image, Button } from "@nextui-org/react";
 import NextImage from "next/image";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiMaildotru } from "react-icons/si";
 
 export const Section_Hero = () => {
   const style_span = {
@@ -17,11 +19,20 @@ export const Section_Hero = () => {
       "--i": 2,
     } as React.CSSProperties,
   };
+
+  const copyEmail = async () => {
+    try {
+      navigator.clipboard.writeText("arcefacundosebastian@hotmail.com")
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
   return (
     <main
       className="
-            w-full h-screen grid grid-cols-8 px-6 z-10 
-            2xl:px-20 xl:px-16 lg:px-12 md:px-10 sm:px-8"
+            w-full h-screen grid grid-cols-8 px-2 z-10 
+            2xl:px-20 xl:px-16 lg:px-12 md:px-10 sm:px-8 xs:px-6 2xs:px-3"
       id="section_hero"
     >
       <section
@@ -78,13 +89,15 @@ export const Section_Hero = () => {
             . Determinado a aprender y mejorar día a día.
           </p>
 
-          <p className="pt-3 text-white font-Chakra 2xl:text-xl xl:text-lg sm:text-sm text-sm">
-            Email de contacto:
-          </p>
-          <strong className="text-blue-700 font-Poppins 2xl:text-lg xl:text-lg sm:text-sm text-sm rounded-full px-2 bg-slate-800">arcefacundosebastian@hotmail.com</strong>
+          <div className="hidden 2xs:block">
+            <p className="pt-3 text-white font-Chakra 2xl:text-xl xl:text-lg sm:text-sm text-sm">
+              Email de contacto:
+            </p>
+            <strong className="text-blue-700 font-Poppins 2xl:text-lg xl:text-lg sm:text-sm text-sm rounded-full px-2 bg-slate-800" id="email">arcefacundosebastian@hotmail.com</strong>
+          </div>
 
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <a href="https://github.com/ArceFacundo2022">
             <Button  
             size="md" isIconOnly aria-label="Github" 
@@ -102,12 +115,22 @@ export const Section_Hero = () => {
               <SiLinkedin/>
             </Button>
           </a>
+
           <a href="/file/CV-Arce-Facundo.pdf">
             <Button 
             size="md" isIconOnly aria-label="LinkedIn" 
             radius="full" className="bg-gradient-to-tr  from-indigo-900 to-blue-900 border-small border-white/50 shadow-blue-950/30 text-white text-xl shadow-lg"
             >
               CV
+            </Button>
+          </a>
+
+          <a  className="2xs:hidden">
+            <Button 
+            size="md" isIconOnly aria-label="LinkedIn" onClick={()=> { copyEmail()}}
+            radius="full" className="bg-gradient-to-tr  from-indigo-900 to-blue-900 border-small border-white/50 shadow-blue-950/30 text-white text-xl shadow-lg"
+            >
+              <SiMaildotru/>
             </Button>
           </a>
         </div>

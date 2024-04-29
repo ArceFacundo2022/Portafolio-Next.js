@@ -21,6 +21,10 @@ const config: Config = {
         "Advent": ['var(--font-Advent_Pro)'],
         "Vollkorn":['var(--font-Vollkorn)'],
       },
+      screens: {
+        'xs': '475px',
+        '2xs': '300px',
+      },
     },
   },
   darkMode: "class",

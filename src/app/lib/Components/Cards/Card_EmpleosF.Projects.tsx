@@ -26,10 +26,10 @@ export const Card_EmpleosF = () => {
 
     return (
     <>
-        <Card isFooterBlurred className="w-full h-[300px] col-span-2 border-4 border-purple-950 ring-2 ring-purple-600 shadow-xl shadow-purple-950">
+        <Card isFooterBlurred className="w-full h-[300px] lg:col-span-2 md:col-span-3 col-span-1 border-4 border-purple-950 ring-2 ring-purple-600 shadow-xl shadow-purple-950">
             <CardHeader className="absolute z-10 top-0 flex-col items-start bg-opacity-50 backdrop-blur-sm">
-                <p className="text-tiny text-white/60 uppercase font-bold">2023</p>
-                <h4 className="text-purple-600 font-Vollkorn text-2xl font-bold">EMPLEOS FORMOSA</h4>
+                <p className="text-tiny text-white/60 uppercase font-bold xs:text-medium sm:text-lg md:text-medium lg:text-sm">2023</p>
+                <h4 className="text-purple-600 font-Vollkorn font-bold text-lg xs:text-xl sm:text-2xl md:text-xl lg:text-2xl ">EMPLEOS FORMOSA</h4>
             </CardHeader>
             <Image
                 removeWrapper
@@ -38,9 +38,9 @@ export const Card_EmpleosF = () => {
                 src="/img/MediLab_img01.png"
             />
             <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-                <div>
-                    <p className="text-black text-tiny">Proyecto Final de la Carrera</p>
-                    <p className="text-black text-tiny">Página de busqueda y contratacion laboral</p>
+                <div className="text-black text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
+                    <p>Proyecto Final de la Carrera</p>
+                    <p>Página de busqueda y contratacion laboral</p>
                 </div>
                 <Button className="border-2 border-purple-600 bg-purple-950 text-white" onPress={() => { setOpen(true)}} radius="full" size="sm">
                     Ver Mas

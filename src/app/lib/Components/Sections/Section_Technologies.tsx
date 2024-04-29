@@ -11,16 +11,17 @@ import { Tooltip } from "@nextui-org/react";
 
 export const Section_Technologies = () => {
   return (
-    <main className="bg-slate-950 w-full h-screen px-16 z-10 xl:px-16 lg:px-12 md:px-10 sm:px-8 grid grid-rows-2 gap-5" id="section_technologies">
-        <section className="col-row-1">
+    <main className="bg-slate-950 w-full min-h-screen px-2 z-10 xl:px-16 lg:px-12 md:px-10 sm:px-8 xs:px-6 2xs:px-3 flex flex-col gap-5" id="section_technologies">
+        <section>
             <header className="pt-20 pb-10 flex align-middle justify-center">
-                <h1 className=" font-Vollkorn text-3xl text-white border-b-2 border-blue-600">{" TECNOLOGÍAS "}</h1>
+                <h1 className="font-Vollkorn text-3xl text-white border-b-2 border-blue-600">{" TECNOLOGÍAS "}</h1>
             </header>
-            <main className="bg-blue-950/55 p-5 rounded-lg grid grid-cols-12 gap-5">
+            <main className="bg-blue-950/55 p-5 rounded-lg flex flex-wrap xs:grid xs:grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 gap-5">
                 <Tooltip
                     placement="top"
                     content="HTML5"
                     color="primary"
+                    className=" basis-auto"
                 >
                     <div className="tech-box w-[75px] h-[75px] text-[rgba(255,255,255,0.5)] hover:text-orange-600">
                         <h2><SiHtml5/></h2>
@@ -31,6 +32,7 @@ export const Section_Technologies = () => {
                     placement="top"
                     content="CSS3"
                     color="primary"
+                    className=" basis-auto"
                 >
                     <div className="tech-box w-[75px] h-[75px] text-[rgba(255,255,255,0.5)] hover:text-blue-500">
                         <h2><SiCss3/></h2>
@@ -41,6 +43,7 @@ export const Section_Technologies = () => {
                     placement="top"
                     content="JavaScript"
                     color="primary"
+                    className=" basis-auto"
                 >
                     <div className="tech-box w-[75px] h-[75px] text-[rgba(255,255,255,0.5)] hover:text-yellow-500">
                         <h2><SiJavascript/></h2>
@@ -51,6 +54,7 @@ export const Section_Technologies = () => {
                     placement="top"
                     content="TypeScript"
                     color="primary"
+                    className="basis-auto"
                 >
                     <div className="tech-box w-[75px] h-[75px] text-[rgba(255,255,255,0.5)] hover:text-blue-500">
                         <h2><SiTypescript/></h2>
@@ -260,12 +264,12 @@ export const Section_Technologies = () => {
             </main>
         </section>
 
-        <section className="col-row-1">
-            <header className="pt-20 pb-10 flex align-middle justify-center">
+        <section>
+            <header className="pt-10 pb-10 flex align-middle justify-center">
                 <h1 className=" font-Vollkorn text-3xl text-white border-b-2 border-blue-600">{" APRENDIENDO "}</h1>
             </header>
-            <main className="grid grid-cols-3 w-auto">
-                <div className=" bg-gradient-to-r from-slate-300/20 via-blue-950/55 to-slate-300/20 p-5 rounded-lg flex justify-center gap-6 col-span-1 col-start-2">
+            <main className="flex justify-center w-auto">
+                <div className=" bg-gradient-to-r from-slate-300/20 via-blue-950/55 to-slate-300/20 py-5 px-5 2xs:px-5 xs:px-20 rounded-lg flex flex-wrap justify-center gap-6">
                     <Tooltip
                         placement="bottom"
                         content="Nest.js"

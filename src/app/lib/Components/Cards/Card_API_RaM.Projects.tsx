@@ -36,10 +36,10 @@ export const Card_API_RaM = () => {
 return (
         <>
 
-            <Card isFooterBlurred className="w-full h-[300px] col-span-2 border-4 border-green-900 ring-2 ring-green-600 shadow-xl shadow-green-800">
+            <Card isFooterBlurred className="w-full h-[300px] lg:col-span-2 md:col-span-3 col-span-1 border-4 border-green-900 ring-2 ring-green-600 shadow-xl shadow-green-800">
                 <CardHeader className="absolute z-10 top-0 flex-col items-start bg-opacity-50 backdrop-blur-sm">
-                    <p className="text-tiny text-white/60 uppercase font-bold">2024</p>
-                    <h4 className="text-white font-Vollkorn text-2xl">RICK AND MORTY API</h4>
+                    <p className="text-tiny text-white/60 uppercase font-bold xs:text-medium sm:text-lg md:text-medium lg:text-sm">2024</p>
+                    <h4 className="text-white font-Vollkorn text-lg xs:text-xl sm:text-2xl md:text-xl lg:text-2xl ">RICK AND MORTY API</h4>
                 </CardHeader>
                 <Image
                     removeWrapper
@@ -48,9 +48,9 @@ return (
                     src="/img/Api_RaM_img03.png"
                 />
                 <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-                    <div>
-                        <p className="text-white text-tiny">Prueba Tecnica</p>
-                        <p className="text-white text-tiny">Consumo de Api GraphQl</p>
+                    <div className="text-white text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
+                        <p>Prueba Tecnica</p>
+                        <p>Consumo de Api GraphQl</p>
                     </div>
                     <Button className="border-2 border-green-600 bg-green-950 text-white" onPress={() => { setOpen(true)}} radius="full" size="sm">
                         Ver Mas

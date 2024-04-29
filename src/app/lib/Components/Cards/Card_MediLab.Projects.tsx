@@ -31,8 +31,8 @@ export const Card_MediLab = () => {
     <>
         <Card isFooterBlurred className="w-full h-[300px] col-span-2 border-4 border-blue-950 ring-2 ring-blue-600 shadow-xl shadow-blue-900">
             <CardHeader className="absolute z-10 top-0 flex-col items-start bg-opacity-50 backdrop-blur-sm">
-                <p className="text-tiny text-white/60 uppercase font-bold">2022</p>
-                <h4 className="text-blue-600 font-Vollkorn text-2xl font-bold">MEDILAB</h4>
+                <p className="text-tiny text-white/60 uppercase font-bold xs:text-medium sm:text-lg md:text-medium lg:text-sm">2022</p>
+                <h4 className="text-blue-600 font-bold font-Vollkorn text-lg xs:text-xl sm:text-2xl md:text-xl lg:text-2xl ">MEDILAB</h4>
             </CardHeader>
             <Image
                 removeWrapper
@@ -41,9 +41,9 @@ export const Card_MediLab = () => {
                 src="/img/MediLab_img01.png"
             />
             <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-                <div>
-                    <p className="text-black text-tiny">Proyecto de Carrera</p>
-                    <p className="text-black text-tiny">Consultoria de Historias Clincas</p>
+                <div className="text-black text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
+                    <p>Proyecto de Carrera</p>
+                    <p>Consultoria de Historias Clincas</p>
                 </div>
                 <Button className="border-2 border-blue-600 bg-blue-950 text-white" onPress={() => { setOpen(true)}} radius="full" size="sm">
                     Ver Mas
