@@ -49,7 +49,7 @@ return (
                 />
                 <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
                     <div className="text-white text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
-                        <p>Prueba Tecnica</p>
+                        <p>Prueba Técnica</p>
                         <p>Consumo de Api GraphQl</p>
                     </div>
                     <Button className="border-2 border-green-600 bg-green-950 text-white" onPress={() => { setOpen(true)}} radius="full" size="sm">
@@ -57,6 +57,7 @@ return (
                     </Button>
                 </CardFooter>
             </Card>
+            
                 <Modal 
                     backdrop="opaque" 
                     isOpen={open} 
@@ -78,7 +79,7 @@ return (
                         <>
                         <ModalHeader className="flex gap-1 flex-col text-center">
                             <h1 className=" text-green-600 font-Vollkorn text-3xl">Rick And Morty API</h1>
-                            <h2 className=" text-xl text-slate-200">Prueba tecnica de consumo de API GraphQL</h2>
+                            <h2 className=" text-xl text-slate-200">Prueba técnica de consumo de API GraphQL</h2>
                         </ModalHeader>
                         <ModalBody>
                             <article>

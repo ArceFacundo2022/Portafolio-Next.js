@@ -43,7 +43,7 @@ export const Card_MediLab = () => {
             <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
                 <div className="text-black text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
                     <p>Proyecto de Carrera</p>
-                    <p>Consultoria de Historias Clincas</p>
+                    <p>Consultoría de Historias Clínicas</p>
                 </div>
                 <Button className="border-2 border-blue-600 bg-blue-950 text-white" onPress={() => { setOpen(true)}} radius="full" size="sm">
                     Ver Mas
@@ -72,7 +72,7 @@ export const Card_MediLab = () => {
                 <>
                 <ModalHeader className="flex gap-1 flex-col text-center">
                     <h1 className=" text-blue-600 font-Vollkorn text-3xl">MEDILAB</h1>
-                    <h2 className=" text-xl text-slate-200">Pagina de consultas de historias clinicas</h2>
+                    <h2 className=" text-xl text-slate-200">Pagina de consultas de historias clínicas</h2>
                 </ModalHeader>
                 <ModalBody>
                     <article>
