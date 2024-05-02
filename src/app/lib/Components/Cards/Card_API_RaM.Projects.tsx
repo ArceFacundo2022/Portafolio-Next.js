@@ -38,8 +38,8 @@ return (
 
             <Card isFooterBlurred className="w-full h-[300px] lg:col-span-2 md:col-span-3 col-span-1 border-4 border-green-900 ring-2 ring-green-600 shadow-xl shadow-green-800">
                 <CardHeader className="absolute z-10 top-0 flex-col items-start bg-opacity-50 backdrop-blur-sm">
-                    <p className="text-tiny text-white/60 uppercase font-bold xs:text-medium sm:text-lg md:text-medium lg:text-sm">2024</p>
-                    <h4 className="text-white font-Vollkorn text-lg xs:text-xl sm:text-2xl md:text-xl lg:text-2xl ">RICK AND MORTY API</h4>
+                    <p className="text-tiny text-green-600 uppercase font-bold xs:text-medium sm:text-lg md:text-medium lg:text-sm">2024</p>
+                    <h4 className="title_RaM text-white font-Vollkorn text-lg xs:text-xl sm:text-2xl md:text-xl lg:text-2xl ">RICK AND MORTY API</h4>
                 </CardHeader>
                 <Image
                     removeWrapper
@@ -68,7 +68,7 @@ return (
                     classNames={{
                         body: "py-6",
                         backdrop: "bg-green-950/75 backdrop-opacity-40",
-                        base: "border-2 border-[#2B4227] bg-[#122114] text-[#a8b0d3]",
+                        base: "pt-12 sm:pt-0 border-2 border-[#2B4227] bg-[#122114] text-[#a8b0d3]",
                         header: "border-b-[2px] border-[#2B4227]",
                         footer: "border-t-[2px] border-[#2B4227]",
                         closeButton: "hover:bg-white/5 active:bg-white/10",
@@ -78,8 +78,8 @@ return (
                     {(onClose) => (
                         <>
                         <ModalHeader className="flex gap-1 flex-col text-center">
-                            <h1 className=" text-green-600 font-Vollkorn text-3xl">Rick And Morty API</h1>
-                            <h2 className=" text-xl text-slate-200">Prueba técnica de consumo de API GraphQL</h2>
+                            <h1 className=" text-green-600 font-Vollkorn text-xl 2xs:text-2xl xs:text-3xl">Rick And Morty API</h1>
+                            <h2 className="text-sm 2xs:text-medium xs:text-lg sm:text-xl text-slate-200">Prueba técnica de consumo de API GraphQL</h2>
                         </ModalHeader>
                         <ModalBody>
                             <article>

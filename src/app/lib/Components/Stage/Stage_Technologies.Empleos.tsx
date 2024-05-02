@@ -1,5 +1,5 @@
-import { SiHtml5, SiCss3, SiExpress, SiTypescript, SiVite, SiRedux, SiNestjs, SiJavascript, 
-    SiMongodb, SiReact, SiNodedotjs, SiBootstrap, SiPostman, SiJirasoftware, SiTrello, SiGithub, SiGit
+import { SiHtml5, SiCss3, SiExpress, SiTypescript, SiRedux, SiNestjs, SiJavascript, 
+    SiMongodb, SiReact, SiNodedotjs, SiBootstrap, SiPostman, SiJirasoftware, SiTrello, SiGit
 } from "react-icons/si";
 
 import { Tooltip } from "@nextui-org/react";
@@ -11,7 +11,7 @@ export const Stage_Technologies_Empleos = () => {
                             <p className="border-b-2 border-purple-600/70">⚜ Tecnologías ⚜</p>
                         </header>
                         <main className="flex flex-col justify-center sm:grid sm:grid-cols-3 w-full gap-3">
-                            <section className="p-1 2xs:p-4 col-span-2 rounded-lg bg-purple-950/80 grid grid-cols-3 2xs:grid-cols-4 xs:grid-cols-5 gap-2 justify-center items-center">
+                            <section className="p-4 col-span-2 rounded-lg bg-purple-950/80 grid grid-cols-3 2xs:grid-cols-5 xs:grid-cols-6 sm:grid-cols-5 gap-2 justify-center items-center">
 
                                 <Tooltip
                                     placement="top"
@@ -19,7 +19,7 @@ export const Stage_Technologies_Empleos = () => {
                                     color="secondary"
                                     >
                                     
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiHtml5/>
                                     </div>
                                 </Tooltip>
@@ -29,7 +29,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="CSS3"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiCss3/>
                                     </div>
                                 </Tooltip>
@@ -39,7 +39,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="JavaScript"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiJavascript/>
                                     </div>
                                 </Tooltip>
@@ -49,7 +49,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="TypeScript"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiTypescript/>
                                     </div>
                                 </Tooltip>
@@ -59,7 +59,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Bootstrap"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiBootstrap/>
                                     </div>
                                 </Tooltip>
@@ -69,7 +69,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="React.JS"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiReact/>
                                     </div>
                                 </Tooltip>
@@ -79,7 +79,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Redux"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiRedux/>
                                     </div>
                                 </Tooltip>
@@ -89,7 +89,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Node.JS"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiNodedotjs/>
                                     </div>
                                 </Tooltip>
@@ -99,7 +99,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Express"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiExpress/>
                                     </div>
                                 </Tooltip>
@@ -109,7 +109,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Nest.js"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiNestjs/>
                                     </div>
                                 </Tooltip>
@@ -119,7 +119,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Postman"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiPostman/>
                                     </div>
                                 </Tooltip>
@@ -129,7 +129,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="MongoDB"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiMongodb/>
                                     </div>
                                 </Tooltip>
@@ -139,7 +139,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Trello"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiTrello/>
                                     </div>
                                 </Tooltip>
@@ -149,7 +149,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Jira Software"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiJirasoftware/>
                                     </div>
                                 </Tooltip>
@@ -159,7 +159,7 @@ export const Stage_Technologies_Empleos = () => {
                                     content="Git"
                                     color="secondary"
                                 >
-                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-3xl bg-[#160F23] w-14 h-14">
+                                    <div className="rounded-full border-2 border-purple-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#160F23] w-12 h-12 xs:w-14 xs:h-14">
                                         <SiGit/>
                                     </div>
                                 </Tooltip>
@@ -167,15 +167,15 @@ export const Stage_Technologies_Empleos = () => {
                             </section>
                             <section className="p-4 col-span-1 rounded-lg bg-purple-950/80">
                                 <h1 className=" text-center text-xl font-Vollkorn text-white pb-2">OTROS</h1>
-                                <div className="grid grid-cols-2 gap-5 text-center text-white text-sm">
-                                    <strong className=" rounded-full bg-[#160F23] border-2 border-purple-600">JWT</strong>
-                                    <strong className="rounded-full bg-[#160F23] border-2 border-purple-600">SCRUM</strong>
-                                    <strong className="rounded-full bg-[#160F23] border-2 border-purple-600">AXIOS</strong>
-                                    <strong className="rounded-full bg-[#160F23] border-2 border-purple-600">REST</strong>
-                                    <strong className="rounded-full bg-[#160F23] border-2 border-purple-600">ESLINT</strong>
-                                    <strong className="rounded-full bg-[#160F23] border-2 border-purple-600">VITE</strong>
-                                    <strong className="col-span-2 rounded-full bg-[#160F23] border-2 border-purple-600">NODEMAILER</strong>
-                                    <strong className="rounded-full col-span-2 bg-[#160F23] border-2 border-purple-600">CLOUDINARY</strong>
+                                <div className="grid grid-cols-4 gap-5 text-center text-white text-sm">
+                                    <strong className="col-span-2 xs:col-span-1 sm:col-span-2 col-start-1 xs:col-start-2 sm:col-start-1 rounded-full bg-[#160F23] border-2 border-purple-600">JWT</strong>
+                                    <strong className="col-span-2 xs:col-span-1 sm:col-span-2 col-start-3 rounded-full bg-[#160F23] border-2 border-purple-600">SCRUM</strong>
+                                    <strong className="col-span-2 xs:col-span-1 sm:col-span-2 col-start-1 xs:col-start-2 sm:col-start-1 rounded-full bg-[#160F23] border-2 border-purple-600">AXIOS</strong>
+                                    <strong className="col-span-2 xs:col-span-1 sm:col-span-2 col-start-3 rounded-full bg-[#160F23] border-2 border-purple-600">REST</strong>
+                                    <strong className="col-span-2 xs:col-span-1 sm:col-span-2 col-start-1 xs:col-start-2 sm:col-start-1 rounded-full bg-[#160F23] border-2 border-purple-600">ESLINT</strong>
+                                    <strong className="col-span-2 xs:col-span-1 sm:col-span-2 col-start-3 rounded-full bg-[#160F23] border-2 border-purple-600">VITE</strong>
+                                    <strong className="col-span-4 xs:col-span-2 sm:col-span-4 col-start-1 xs:col-start-2 sm:col-start-1 rounded-full bg-[#160F23] border-2 border-purple-600">NODEMAILER</strong>
+                                    <strong className="col-span-4 xs:col-span-2 sm:col-span-4 col-start-1 xs:col-start-2 sm:col-start-1 rounded-full bg-[#160F23] border-2 border-purple-600">CLOUDINARY</strong>
                                 </div>
                             </section>
                         </main>

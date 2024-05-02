@@ -8,18 +8,18 @@ export const Stage_Experience_Empleos = () => {
                             <p className="border-b-2 border-purple-600/70">⚜ Experiencia ⚜</p>
                         </header>
                         <main className="p-4 rounded-lg bg-purple-950/50 w-full">
-                            <div className="text-sm pb-3">
+                            <div className="text-tiny sm:text-sm pb-3">
                                 <p className="pb-3">
-                                    Este proyecto fue para nosotros un paso mas para entender y conocer como es el <strong className=" text-purple-400/80">desarrollo profesional</strong> de una pagina web, trabajando en un proyecto guiado por profesionales del area
+                                    Este proyecto fue para nosotros un paso más para entender y conocer como es el <strong className=" text-purple-400/80">desarrollo profesional</strong> de una página web, trabajando en un proyecto guiado por profesionales del area
                                 </p>
                                 <p className="pb-3">
-                                    Apesar de contar con la <strong className=" text-purple-400/80">experiencia</strong> del proyecto anterior, el proceso siguio siendo dificil y frustrante por como nos manejamos todo el año para <strong className=" text-purple-400/80">satisfacer los requerimientos</strong> que 
-                                    solicitaban nuestros profesores y el equipo de la subsecretaria, que hicieron que el proyecto vaya <strong className=" text-purple-400/80">evolucionando</strong> con los meses partiendo de las tecnologias que conociamos a usar algunas que eran terreno desconocido en el momento, pero que nos
-                                    ayudo a ver el <strong className=" text-purple-400/80">potencial que tenemos</strong> de poder <strong className=" text-purple-400/80">implementar tecnologias nuevas segun los requerimientos que se solicitaban</strong>.
+                                    A pesar de contar con la <strong className=" text-purple-400/80">experiencia</strong> del proyecto anterior, el proceso siguió siendo difícil y frustrante por cómo nos manejamos todo el año para <strong className=" text-purple-400/80">satisfacer los requerimientos</strong> que 
+                                    solicitaban nuestros profesores y el equipo de la subsecretaria, que hicieron que el proyecto vaya <strong className=" text-purple-400/80">evolucionando</strong> con los meses partiendo de las tecnologías que conocíamos a usar algunas que eran terreno desconocido en el momento, pero que nos
+                                    ayudo a ver el <strong className=" text-purple-400/80">potencial que tenemos</strong> de poder <strong className=" text-purple-400/80">implementar tecnologías nuevas según los requerimientos que se solicitaban</strong>.
                                 </p>
                                 <p className="pb-3">
-                                    Aprendimos a trabajar de <strong className=" text-purple-400/80">manera conjunta</strong> y de <strong className=" text-purple-400/80">manera autonoma</strong> confiando en los demas compañieros para presentar al final del año el proyecto terminado y gracias al apoyo nuevamente de los profesores y 
-                                    compañeros, pudimos pararnos nuevamente en el escenario frente a las <strong className=" text-purple-400/80">autoridades del institutos y otros sectores</strong> mostrando todo <strong className=" text-purple-400/80">nuestro esfuerzo y dedicacion</strong> una vez mas ⭐.
+                                    Aprendimos a trabajar de <strong className=" text-purple-400/80">manera conjunta</strong> y de <strong className=" text-purple-400/80">manera autónoma</strong> confiando en los demás compañeros para presentar al final del año el proyecto terminado y gracias al apoyo nuevamente de los profesores y 
+                                    compañeros, pudimos pararnos nuevamente en el escenario frente a las <strong className=" text-purple-400/80">autoridades del instituto y otros sectores</strong> mostrando todo <strong className=" text-purple-400/80">nuestro esfuerzo y dedicación</strong> una vez más ⭐.
                                 </p>
                             </div>
                             <Image

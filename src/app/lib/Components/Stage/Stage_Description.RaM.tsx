@@ -3,10 +3,10 @@
 export const Stage_Description_RaM = () => {
   return (
                             <article className="py-3 w-full relative">
-                                <header className="pb-6 text-6xl text-center text-green-600/70 font-Vollkorn font-extrabold">
+                                <header className="pb-6 text-xl 2xs:text-2xl xs:text-4xl sm:text-5xl md:text-6xl text-center text-green-600/70 font-Vollkorn font-extrabold">
                                     <p className="border-b-2 border-green-600/70">⚜ Descripción ⚜</p>
                                 </header>
-                                <main className="p-4 rounded-lg bg-green-900/50 w-full text-sm">
+                                <main className="p-4 rounded-lg bg-green-900/50 w-full text-tiny xs:text-sm">
                                         <p className="pb-3">
                                             Este proyecto fue una <strong className=" text-green-400/80"></strong>prueba tecnica en el proceso de contratacion en una oferta laboral, en la que se buscaba <strong className=" text-green-400/80">corroborar mis habilidades</strong> y filtrar a todos los postulantes
                                         </p>

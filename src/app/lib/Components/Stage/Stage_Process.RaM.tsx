@@ -4,10 +4,10 @@ import { Image } from "@nextui-org/react";
 export const Stage_Process_RaM = () => {
   return (
                             <article className="py-3">
-                                <header className="pb-6 text-6xl text-center text-green-600/70 font-Vollkorn font-extrabold">
+                                <header className="pb-6 text-xl 2xs:text-2xl xs:text-4xl sm:text-5xl md:text-6xl text-center text-green-600/70 font-Vollkorn font-extrabold">
                                     <p className="border-b-2 border-green-600/70">⚜ Proceso ⚜</p>
                                 </header>
-                                <main className="p-4 rounded-lg bg-green-900/50 w-full grid grid-row-2 gap-3 text-sm">
+                                <main className="p-4 rounded-lg bg-green-900/50 w-full grid grid-row-2 gap-3 text-tiny xs:text-sm">
                                     <div className="col-row-1">
                                         <p className="pb-3">
                                             Al momento de recibir la <strong className=" text-green-400/80">prueba tecnica</strong> y tener <strong className=" text-green-400/80">5 dias para realizarla</strong>, comence a extraer todo lo que necesitaba de los requisitos y objetivos de la prueba, proponiendome
@@ -25,7 +25,7 @@ export const Stage_Process_RaM = () => {
                                         </p>
 
                                     </div>
-                                    <div className="col-row-1 grid grid-cols-2 gap-3">
+                                    <div className="grid grid-rows-2 grid-cols-1 sm:grid-rows-1 sm:grid-cols-2 gap-3">
                                         <div>
                                             <Image
                                                 as={NextImage}

@@ -369,3 +369,18 @@ h2.whoIm span::before{
   border-bottom: 3px solid #093c66;
   transition: 1s;
 }
+
+/*----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.title_empleos{
+  filter: drop-shadow(0 0 2px #9333EA);
+}
+
+.title_RaM{
+  filter: drop-shadow(0 0 2px #16A34A);
+}
+
+.title_Medi{
+  filter: drop-shadow(0 0 2px #2563EB);
+}

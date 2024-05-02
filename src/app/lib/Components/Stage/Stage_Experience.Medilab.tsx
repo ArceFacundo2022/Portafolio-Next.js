@@ -3,11 +3,11 @@ import { Image } from "@nextui-org/react"
 export const Stage_Experience_Medilab = () => {
   return (
                     <article className="py-3">
-                        <header className="pb-6 text-6xl text-center text-blue-600/70 font-Vollkorn font-extrabold">
+                        <header className="pb-6 text-xl 2xs:text-2xl xs:text-4xl sm:text-5xl md:text-6xl text-center text-blue-600/70 font-Vollkorn font-extrabold">
                             <p className="border-b-2 border-blue-600/70">⚜ Experiencia ⚜</p>
                         </header>
                         <main className="p-4 rounded-lg bg-blue-950/50 w-full">
-                            <div className="text-sm pb-3">
+                            <div className="text-tiny xs:text-sm pb-3">
                                 <p className="pb-3">
                                     Este proyecto fue la primera visión de un proyecto completo en el desarrollo web, un proyecto que comenzó con una simple idea para <strong className=" text-blue-400/80">resolver una problemática</strong> hasta
                                     la demostración y presentación del mismo a final de año, un año en que comenzamos aprendiendo con lenguaje en pseudo código y terminamos realizando un <strong className=" text-blue-400/80">proyecto FullStack</strong>

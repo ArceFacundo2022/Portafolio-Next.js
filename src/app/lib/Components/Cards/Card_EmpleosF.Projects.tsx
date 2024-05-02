@@ -17,30 +17,54 @@ export const Card_EmpleosF = () => {
 
     const images = [
         {
-            original: "/img/MediLab_img01.png",
-            thumbnail: "/img/MediLab_img01.png",
+            original: "/img/Empleos_Img01.png",
+            thumbnail: "/img/Empleos_Img01.png",
         },
         {
-            original: "/img/MediLab_img02.png",
-            thumbnail: "/img/MediLab_img02.png",
+            original: "/img/Empleos_Img02.png",
+            thumbnail: "/img/Empleos_Img02.png",
+        },
+        {
+            original: "/img/Empleos_Img03.png",
+            thumbnail: "/img/Empleos_Img03.png",
+        },
+        {
+            original: "/img/Empleos_Img04.png",
+            thumbnail: "/img/Empleos_Img04.png",
+        },
+        {
+            original: "/img/Empleos_Img05.png",
+            thumbnail: "/img/Empleos_Img05.png",
+        },
+        {
+            original: "/img/Empleos_Img06.png",
+            thumbnail: "/img/Empleos_Img06.png",
+        },
+        {
+            original: "/img/Empleos_Img07.png",
+            thumbnail: "/img/Empleos_Img07.png",
+        },
+        {
+            original: "/img/Empleos_Img08.png",
+            thumbnail: "/img/Empleos_Img08.png",
         },
     ];
 
     return (
     <>
         <Card isFooterBlurred className="w-full h-[300px] lg:col-span-2 md:col-span-3 col-span-1 border-4 border-purple-950 ring-2 ring-purple-600 shadow-xl shadow-purple-950">
-            <CardHeader className="absolute z-10 top-0 flex-col items-start bg-opacity-50 backdrop-blur-sm">
-                <p className="text-tiny text-white/60 uppercase font-bold xs:text-medium sm:text-lg md:text-medium lg:text-sm">2023</p>
-                <h4 className="text-purple-600 font-Vollkorn font-bold text-lg xs:text-xl sm:text-2xl md:text-xl lg:text-2xl ">EMPLEOS FORMOSA</h4>
+            <CardHeader className="absolute z-10 top-0 flex-col items-start bg-opacity-50 backdrop-blur-md">
+                <p className="text-tiny text-purple-600 uppercase font-bold xs:text-medium sm:text-lg md:text-medium lg:text-sm">2023</p>
+                <h4 className="title_empleos text-white font-Vollkorn font-bold text-lg xs:text-xl sm:text-2xl md:text-xl lg:text-2xl ">EMPLEOS FORMOSA</h4>
             </CardHeader>
             <Image
                 removeWrapper
                 alt="Card MediLab project"
                 className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-                src="/img/MediLab_img01.png"
+                src="/img/Empleos_Img01.png"
             />
-            <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-                <div className="text-black text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
+            <CardFooter className="absolute bg-white/10 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between bg-opacity-100 backdrop-blur-xl">
+                <div className="text-white text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
                     <p>Proyecto Final de la Carrera</p>
                     <p>Pagina de búsqueda y contratación laboral</p>
                 </div>
@@ -71,7 +95,7 @@ export const Card_EmpleosF = () => {
             {(onClose) => (
                 <>
                 <ModalHeader className="flex gap-1 flex-col text-center">
-                    <h1 className=" text-purple-600 font-Vollkorn text-lg 2xs:text-xl xs:text-2xl sm:text-3xl">Empleos Formosa</h1>
+                    <h1 className=" text-purple-600 font-Vollkorn text-xl 2xs:text-2xl xs:text-3xl">Empleos Formosa</h1>
                     <h2 className="text-sm 2xs:text-medium xs:text-lg sm:text-xl text-slate-200">Pagina de búsquedas y contratación laboral</h2>
                 </ModalHeader>
                 <ModalBody>

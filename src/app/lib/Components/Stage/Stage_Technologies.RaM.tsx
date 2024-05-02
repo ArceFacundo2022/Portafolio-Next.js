@@ -4,18 +4,18 @@ import { Tooltip } from "@nextui-org/react";
 export const Stage_Technologies_RaM = () => {
   return (
                             <article className="py-3">
-                                <header className="pb-6 text-6xl text-center text-green-600/70 font-Vollkorn font-extrabold">
+                                <header className="pb-6 text-xl 2xs:text-2xl xs:text-4xl sm:text-5xl md:text-6xl text-center text-green-600/70 font-Vollkorn font-extrabold">
                                     <p className="border-b-2 border-green-600/70">⚜ Tecnologías ⚜</p>
                                 </header>
-                                <main className="grid grid-cols-3 w-full gap-3">
-                                    <section className="p-4 col-span-2 rounded-lg bg-green-900/80 grid grid-cols-5 gap-2 justify-center items-center">
+                                <main className="flex flex-col justify-center sm:grid sm:grid-cols-3 w-full gap-3">
+                                    <section className="p-4 col-span-2 rounded-lg bg-green-900/80 grid grid-cols-3 2xs:grid-cols-5 xs:grid-cols-6 sm:grid-cols-5 gap-2 justify-center items-center">
                                         <Tooltip
                                             placement="top"
                                             content="HTML5"
                                             color="success"
                                             >
                                             
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiHtml5/>
                                             </div>
                                         </Tooltip>
@@ -25,7 +25,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="CSS3"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiCss3/>
                                             </div>
                                         </Tooltip>
@@ -35,7 +35,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="JavaScript"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiJavascript/>
                                             </div>
                                         </Tooltip>
@@ -45,7 +45,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="React.JS"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiReact/>
                                             </div>
                                         </Tooltip>
@@ -55,7 +55,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="Vite"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiVite/>
                                             </div>
                                         </Tooltip>
@@ -65,7 +65,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="GraphQL"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiGraphql/>
                                             </div>
                                         </Tooltip>
@@ -75,7 +75,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="ExcaliDraw"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiExcalidraw/>
                                             </div>
                                         </Tooltip>
@@ -85,7 +85,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="NextUI"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiNextui/>
                                             </div>
                                         </Tooltip>
@@ -95,7 +95,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="Tailwind"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiTailwindcss/>
                                             </div>
                                         </Tooltip>
@@ -105,7 +105,7 @@ export const Stage_Technologies_RaM = () => {
                                             content="Vercel"
                                             color="success"
                                         >
-                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-3xl bg-[#122114] w-14 h-14">
+                                            <div className="rounded-full border-2 border-green-600 flex justify-center items-center text-white text-2xl xs:text-3xl bg-[#122114] w-12 h-12 xs:w-14 xs:h-14">
                                                 <SiVercel/>
                                             </div>
                                         </Tooltip>
@@ -114,8 +114,8 @@ export const Stage_Technologies_RaM = () => {
                                     </section>
                                     <section className="p-4 col-span-1 rounded-lg bg-green-900/80">
                                         <h1 className=" text-center text-xl font-Vollkorn text-white pb-2">OTROS</h1>
-                                        <div className="grid grid-cols-5 gap-5 text-center">
-                                            <strong className="col-span-3 col-start-2 rounded-full bg-[#122114] border-2 border-green-600 px-2 text-white text-sm">ESLINT</strong>
+                                        <div className="grid grid-cols-5 xs:grid-cols-4 sm:grid-cols-5 gap-5 text-center">
+                                            <strong className="col-span-3 col-start-2 xs:col-span-2 xs:col-start-2 sm:col-span-3 sm:col-start-2 rounded-full bg-[#122114] border-2 border-green-600 px-2 text-white text-sm">ESLINT</strong>
                                         </div>
                                     </section>
                                 </main>
