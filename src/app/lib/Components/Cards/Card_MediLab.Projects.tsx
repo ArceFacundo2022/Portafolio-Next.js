@@ -18,12 +18,12 @@ export const Card_MediLab = () => {
 
     const images = [
         {
-            original: "/img/MediLab_img01.webp",
-            thumbnail: "/img/MediLab_img01.webp",
+            original: "/img/MediLab_01.webp",
+            thumbnail: "/img/MediLab_01.webp",
         },
         {
-            original: "/img/MediLab_img02.webp",
-            thumbnail: "/img/MediLab_img02.webp",
+            original: "/img/MediLab_02.webp",
+            thumbnail: "/img/MediLab_02.webp",
         },
     ];
 
@@ -38,7 +38,7 @@ export const Card_MediLab = () => {
                 removeWrapper
                 alt="Card MediLab project"
                 className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-                src="/img/MediLab_img01.webp"
+                src="/img/MediLab_01.webp"
             />
             <CardFooter className="absolute bg-white/10 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between bg-opacity-100 backdrop-blur-xl">
                 <div className="text-white text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">
