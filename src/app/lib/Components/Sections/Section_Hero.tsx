@@ -2,7 +2,7 @@
 
 import { Tooltip, Image, Button } from "@nextui-org/react";
 import NextImage from "next/image";
-import { SiGithub, SiLinkedin, SiMaildotru } from "react-icons/si";
+import { SiFigma, SiGithub, SiLinkedin, SiMaildotru } from "react-icons/si";
 
 export const Section_Hero = () => {
   const style_span = {
@@ -103,6 +103,15 @@ export const Section_Hero = () => {
             radius="full" className="bg-gradient-to-tr  from-indigo-900 to-blue-900 border-small border-white/50 shadow-blue-950/30 text-white text-xl shadow-lg py-0"
             >
               <SiGithub/>
+            </Button>
+          </a>
+
+          <a href="https://www.figma.com/@arcefacundo">
+            <Button  
+              size="md" isIconOnly aria-label="Figma" 
+              radius="full" className="bg-gradient-to-tr  from-indigo-900 to-blue-900 border-small border-white/50 shadow-blue-950/30 text-white text-xl shadow-lg py-0"
+            >
+              <SiFigma/>
             </Button>
           </a>
 

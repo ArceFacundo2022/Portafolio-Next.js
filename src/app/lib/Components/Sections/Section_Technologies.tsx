@@ -3,11 +3,12 @@ import {
     SiHtml5, SiCss3, SiTypescript, SiGraphql, SiJavascript, SiReact, SiExcalidraw, SiVercel,
     SiNextui,SiNextdotjs, SiVite, SiTailwindcss, SiBootstrap, SiNodedotjs, SiMongodb, SiMariadb,
     SiRedux, SiPostgresql, SiNestjs, SiPostman, SiDocker, SiJirasoftware, SiTrello, SiFigma, 
-    SiGithub, SiGit, SiExpress,
+    SiGithub, SiGit, SiExpress, SiJest, SiSocketdotio, SiTurso
 
 } from "react-icons/si";
 
 import { Tooltip } from "@nextui-org/react";
+import { ZustandIcon } from "@/assets/icons/Zustand_icon";
 
 export const Section_Technologies = () => {
   return (
@@ -272,12 +273,40 @@ export const Section_Technologies = () => {
                 <div className=" bg-gradient-to-r from-slate-300/20 via-blue-950/55 to-slate-300/20 py-5 px-5 2xs:px-5 xs:px-20 rounded-lg flex flex-wrap justify-center gap-6">
                     <Tooltip
                         placement="bottom"
+                        content="Socket.io"
+                        color="default"
+                    >
+                        <div className="learn-tech">
+                            <span>
+                                <SiSocketdotio className="icon-shadow"/>
+                            </span>
+                        </div>
+                    </Tooltip>
+
+                    <Tooltip
+                        placement="bottom"
                         content="Nest.js"
                         color="default"
                     >
                         <div className="learn-tech">
                             <span>
                                 <SiNestjs className="icon-shadow"/>
+                            </span>
+                        </div>
+                    </Tooltip>
+
+                    <Tooltip
+                        placement="bottom"
+                        content="Zustand"
+                        color="default"
+                    >
+                        <div className="learn-tech">
+                            <span>
+                                <ZustandIcon 
+                                    svgClassName="w-16 h-16 icon-shadow" 
+                                    className="stroke-current" 
+                                    pathClassName="fill-current" 
+                                />
                             </span>
                         </div>
                     </Tooltip>
@@ -296,6 +325,30 @@ export const Section_Technologies = () => {
 
                     <Tooltip
                         placement="bottom"
+                        content="Jest"
+                        color="default"
+                    >
+                        <div className="learn-tech">
+                            <span>
+                                <SiJest className="icon-shadow"/>
+                            </span>
+                        </div>
+                    </Tooltip>
+
+                    <Tooltip
+                        placement="bottom"
+                        content="Turso"
+                        color="default"
+                    >
+                        <div className="learn-tech">
+                            <span>
+                                <SiTurso className="icon-shadow"/>
+                            </span>
+                        </div>
+                    </Tooltip>
+
+                    <Tooltip
+                        placement="bottom"
                         content="Figma"
                         color="default"
                     >
@@ -305,6 +358,7 @@ export const Section_Technologies = () => {
                             </span>
                         </div>
                     </Tooltip>
+
                 </div>
             </main>
         </section>
