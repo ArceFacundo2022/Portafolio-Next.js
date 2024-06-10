@@ -30,7 +30,7 @@ export const Stage_Process_Medilab = () => {
                         height={1930}
                         alt="Arquitectura del proyecto"
                         className="max-w-[545px] max-h-[965px] w-full h-full"
-                        src="/img/Arquitectura.png"
+                        src="/img/Arquitectura.webp"
                     />
                 </div>
             </main>

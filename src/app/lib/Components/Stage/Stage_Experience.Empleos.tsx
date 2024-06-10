@@ -29,7 +29,7 @@ export const Stage_Experience_Empleos = () => {
                                 removeWrapper
                                 alt="Presentacion final de Empleos Formosa"
                                 className="w-full h-full object-cover"
-                                src="/img/Presentacion_Empleos.jpg"
+                                src="/img/Presentacion_Empleos.webp"
                             />
                         </main>
                     </article>

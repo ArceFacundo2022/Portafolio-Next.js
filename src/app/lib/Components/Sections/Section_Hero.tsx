@@ -1,6 +1,5 @@
 'use client'
 
-import PORFOLIO_FOTO from "@/../../public/img/foto_porta_2.png";
 import { Tooltip, Image, Button } from "@nextui-org/react";
 import NextImage from "next/image";
 import { SiGithub, SiLinkedin, SiMaildotru } from "react-icons/si";
@@ -151,7 +150,7 @@ export const Section_Hero = () => {
               blurredImg: "-z-0",
             }}
             as={NextImage}
-            src={PORFOLIO_FOTO.src}
+            src={"/img/foto_porta_2.webp"}
             alt="Foto de portafolio principal"
             width={680}
             height={760}

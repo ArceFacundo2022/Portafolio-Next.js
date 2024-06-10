@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const Stage_Description_Medilab = () => {
     return (

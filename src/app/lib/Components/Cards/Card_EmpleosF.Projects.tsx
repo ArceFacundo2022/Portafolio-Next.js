@@ -17,36 +17,36 @@ export const Card_EmpleosF = () => {
 
     const images = [
         {
-            original: "/img/Empleos_Img01.png",
-            thumbnail: "/img/Empleos_Img01.png",
+            original: "/img/Empleos_Img01.webp",
+            thumbnail: "/img/Empleos_Img01.webp",
         },
         {
-            original: "/img/Empleos_Img02.png",
-            thumbnail: "/img/Empleos_Img02.png",
+            original: "/img/Empleos_Img02.webp",
+            thumbnail: "/img/Empleos_Img02.webp",
         },
         {
-            original: "/img/Empleos_Img03.png",
-            thumbnail: "/img/Empleos_Img03.png",
+            original: "/img/Empleos_Img03.webp",
+            thumbnail: "/img/Empleos_Img03.webp",
         },
         {
-            original: "/img/Empleos_Img04.png",
-            thumbnail: "/img/Empleos_Img04.png",
+            original: "/img/Empleos_Img04.webp",
+            thumbnail: "/img/Empleos_Img04.webp",
         },
         {
-            original: "/img/Empleos_Img05.png",
-            thumbnail: "/img/Empleos_Img05.png",
+            original: "/img/Empleos_Img05.webp",
+            thumbnail: "/img/Empleos_Img05.webp",
         },
         {
-            original: "/img/Empleos_Img06.png",
-            thumbnail: "/img/Empleos_Img06.png",
+            original: "/img/Empleos_Img06.webp",
+            thumbnail: "/img/Empleos_Img06.webp",
         },
         {
-            original: "/img/Empleos_Img07.png",
-            thumbnail: "/img/Empleos_Img07.png",
+            original: "/img/Empleos_Img07.webp",
+            thumbnail: "/img/Empleos_Img07.webp",
         },
         {
-            original: "/img/Empleos_Img08.png",
-            thumbnail: "/img/Empleos_Img08.png",
+            original: "/img/Empleos_Img08.webp",
+            thumbnail: "/img/Empleos_Img08.webp",
         },
     ];
 
@@ -61,7 +61,7 @@ export const Card_EmpleosF = () => {
                 removeWrapper
                 alt="Card MediLab project"
                 className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-                src="/img/Empleos_Img01.png"
+                src="/img/Empleos_Img01.webp"
             />
             <CardFooter className="absolute bg-white/10 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between bg-opacity-100 backdrop-blur-xl">
                 <div className="text-white text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">

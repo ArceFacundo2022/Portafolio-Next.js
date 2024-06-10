@@ -24,7 +24,7 @@ export const Stage_Experience_RaM = () => {
                                             removeWrapper
                                             alt="Icono Rick and Morty"
                                             className="max-w-[240px] max-h-[240px] sm:w-full sm:h-auto 2xs:w-2/5 w-3/5"
-                                            src="/img/icon_RaM.png"
+                                            src="/img/icon_RaM.webp"
                                         />
                                     </div>
                                     <div className="text-tiny xs:text-sm col-span-5">

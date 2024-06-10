@@ -20,16 +20,16 @@ export const Card_API_RaM = () => {
 
     const images = [
         {
-            original: "/img/Api_RaM_img01.png",
-            thumbnail: "/img/Api_RaM_img01.png",
+            original: "/img/Api_RaM_img01.webp",
+            thumbnail: "/img/Api_RaM_img01.webp",
         },
         {
-            original: "/img/Api_RaM_img02.png",
-            thumbnail: "/img/Api_RaM_img02.png",
+            original: "/img/Api_RaM_img02.webp",
+            thumbnail: "/img/Api_RaM_img02.webp",
         },
         {
-            original: "/img/Api_RaM_img04.png",
-            thumbnail: "/img/Api_RaM_img04.png",
+            original: "/img/Api_RaM_img04.webp",
+            thumbnail: "/img/Api_RaM_img04.webp",
         },
     ];
 
@@ -45,7 +45,7 @@ return (
                     removeWrapper
                     alt="Card Rick and Morty Api project"
                     className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-                    src="/img/Api_RaM_img03.png"
+                    src="/img/Api_RaM_img03.webp"
                 />
                 <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
                     <div className="text-white text-tiny xs:text-sm sm:text-medium md:text-sm lg:text-tiny">

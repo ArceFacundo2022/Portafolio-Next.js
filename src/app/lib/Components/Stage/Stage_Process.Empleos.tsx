@@ -32,7 +32,7 @@ export const Stage_Process_Empleos = () => {
                                     removeWrapper
                                     alt="Modal con informacion del postulante"
                                     className="w-full h-full max-w-[1370px] max-h-[770px]"
-                                    src="/img/Problematica_empleos.png"
+                                    src="/img/Problematica_empleos.webp"
                                 />
                             </div>
                             

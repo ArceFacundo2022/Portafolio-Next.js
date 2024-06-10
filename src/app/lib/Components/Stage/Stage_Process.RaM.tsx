@@ -34,7 +34,7 @@ export const Stage_Process_RaM = () => {
                                                 removeWrapper
                                                 alt="Card MediLab project"
                                                 className="w-full h-full"
-                                                src="/img/Esquema_RaM.png"
+                                                src="/img/Esquema_RaM.webp"
                                             />
                                         </div>
                                         <div>
@@ -45,7 +45,7 @@ export const Stage_Process_RaM = () => {
                                                 height={463}
                                                 alt="Card MediLab project"
                                                 className="w-full h-full"
-                                                src="/img/Esquema_RaM_2.png"
+                                                src="/img/Esquema_RaM_2.webp"
                                             />
                                         </div>
 

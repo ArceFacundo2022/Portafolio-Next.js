@@ -18,7 +18,7 @@ export const Section_Studies = () => {
                             removeWrapper
                             alt="Logo Instituto Politecnico Formosa"
                             className="max-x-[800px] max-h-[680px] sm:w-auto sm:h-auto xs:w-1/3 w-1/2"
-                            src="/img/IPF_Logo.png"
+                            src="/img/IPF_Logo.webp"
                         />
                     </div>
                     <div className="col-span-1 row-span-2 2xs:row-span-1 sm:row-span-1 sm:col-span-4 text-sm xl:text-tiny 2xl:text-sm text-slate-400/75 py-3 pr-3 pl-3 sm:pr-3 sm:pl-0">
@@ -41,7 +41,7 @@ export const Section_Studies = () => {
                             removeWrapper
                             alt="Logo Instituto universitario IES siglo 21"
                             className=" max-x-[525px] max-h-[450px] sm:w-auto sm:h-auto xs:w-1/3 w-1/2"
-                            src="/img/IES_Logo.png"
+                            src="/img/IES_Logo.webp"
                         />
                     </div>
                     <div className="col-span-1 row-span-2 2xs:row-span-1 sm:row-span-1 sm:col-span-4 text-sm xl:text-tiny 2xl:text-sm text-slate-400/75 py-3 pr-3 pl-3 sm:pr-3 sm:pl-0">
@@ -63,7 +63,7 @@ export const Section_Studies = () => {
                             removeWrapper
                             alt="Logo IAC (Instituto Argentino de Computacion)"
                             className=" max-x-[168] max-h-[168px] sm:w-auto sm:h-auto xs:w-1/3 w-1/2"
-                            src="/img/IAC_logo.png"
+                            src="/img/IAC_logo.webp"
                         />
                     </div>
                     <div className="col-span-1 row-span-2 2xs:row-span-1 sm:row-span-1 sm:col-span-4 text-sm xl:text-tiny 2xl:text-sm text-slate-400/75 py-3 pr-3 pl-3 sm:pr-3 sm:pl-0">
@@ -93,7 +93,7 @@ export const Section_Studies = () => {
                             removeWrapper
                             alt="Chico jugando distraido"
                             className=" max-x-[1295px] max-h-[3000px] w-full h-[75vh] -z-0"
-                            src="/img/gamestation.png"
+                            src="/img/gamestation.webp"
                         />
                     </div>
                 </div>
