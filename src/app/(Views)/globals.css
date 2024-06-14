@@ -384,3 +384,85 @@ h2.whoIm span::before{
 .title_Medi{
   filter: drop-shadow(0 0 2px #2563EB);
 }
+
+/*----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.rombo-skills{
+  transform: rotate(-315deg);
+  bottom: -100px;
+}
+
+.rombo-skills div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+}
+
+.rombo-skills div .button-skill{
+  position: relative;
+  width: 68px;
+  height: 68px;
+  display: block;
+}
+
+.rombo-skills div .button-skill span{
+  position: absolute;
+  inset: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rombo-skills div .button-skill span b {
+  color: #fff;
+  font-weight: normal;
+  transform: rotate(-45deg);
+  font-size: 1.8em;
+}
+
+/*----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.container-cards-glass .card-glass{
+  position: relative;
+  width: 200px;
+  height: 240px;
+  background: linear-gradient(#fff3, transparent);
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -45px;
+  transform: rotate(calc(var(--r) * 1deg));
+}
+
+.container-cards-glass:hover .card-glass{
+  transform: rotate(0deg);
+  margin: 0 15px;
+}
+
+.container-cards-glass .card-glass .card-text{
+  color: transparent;
+  transition: 0.5s
+}
+
+.container-cards-glass:hover .card-glass .card-text{
+  color: rgba(37, 99, 235, 1)
+}
+
+.card-icon-skill {
+  color: #fff;
+  font-size: 4em;
+  filter: drop-shadow(0 0 30px rgba(37, 99, 235, 0.2)) 
+  drop-shadow(0 0 15px rgba(37, 99, 235, 0.5)) 
+  drop-shadow(0 0 5px rgba(37, 99, 235, 0.8))
+  drop-shadow(0 0 1px rgba(37, 99, 235, 1));
+}

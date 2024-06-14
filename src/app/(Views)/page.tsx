@@ -6,6 +6,7 @@ import { Section_Studies } from "../lib/Components/Sections/Section_Studies";
 import { Section_Technologies } from "../lib/Components/Sections/Section_Technologies";
 import { Section_AboutMe } from "../lib/Components/Sections/Section_AboutMe";
 import { Footer } from "../lib/Components/Sections/Footer";
+import { Section_SoftSkills } from "../lib/Components/Sections/Section_SoftSkills";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Section_Projects/>
       <Section_Studies/>
       <Section_Technologies/>
+      <Section_SoftSkills/>
       <Section_AboutMe/>
       <Footer/>
     </>

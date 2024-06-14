@@ -27,18 +27,18 @@ export const DropDown_Tech_Footer = () => {
           
         >
           <DropdownItem
-            isDisabled
             isReadOnly
             key="Header"
-            className="h-14 gap-2 hover:bg-black hover:border-0 hover:border-transparent"
+            className="h-14 gap-2"
+            style={{ pointerEvents: 'none', userSelect: 'none' }}
           >
             <p className="text-cyan-500/75 font-semibold font-Chakra text-xl text-center">PORTFOLIO</p>
-            <p className=" text-white font-Chakra text-center">Tecnologias utilizadas</p>
+            <p className=" text-white font-Chakra text-center">Tecnologías utilizadas</p>
           </DropdownItem>
           <DropdownItem
-            isDisabled
             isReadOnly
             key="Tecnologias"
+            style={{ pointerEvents: 'none', userSelect: 'none' }}
           >
             <section className="p-4 col-span-2 rounded-lg bg-cyan-950/80 grid grid-cols-3 2xs:grid-cols-5 xs:grid-cols-6 sm:grid-cols-5 gap-2 justify-center items-center">
               <Tooltip
