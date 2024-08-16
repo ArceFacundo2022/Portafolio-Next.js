@@ -1,14 +1,15 @@
 import { Card_API_RaM } from "../Cards/Card_API_RaM.Projects";
 import { Card_EmpleosF } from "../Cards/Card_EmpleosF.Projects";
 import { Card_MediLab } from "../Cards/Card_MediLab.Projects";
-
+import { Section_Viewer_Project } from "./Section_Viewer_Project";
 
 export const Section_Projects = () => {
   return (
     <main className="bg-slate-950 w-full min-h-screen px-2 z-10 xl:px-16 lg:px-12 md:px-10 sm:px-8 xs:px-6 2xs:px-3" id="section_projects">
-        <div className="py-20 flex align-middle justify-center">
+        <div className="pt-16 pb-4 flex align-middle justify-center">
             <h1 className="font-Vollkorn text-sm xs:text-lg sm:text-xl md:text-2xl lg:text-3xl text-white border-b-2 border-blue-600">{"🔅 PROYECTOS PRINCIPALES 🔅"}</h1>
         </div>
+        <Section_Viewer_Project/>
         <section 
           className="
           p-5 rounded-lg grid grid-rows-3 grid-cols-1 gap-3

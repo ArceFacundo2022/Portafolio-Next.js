@@ -1,4 +1,4 @@
-import NextImage from "next/image";
+
 import { Image } from "@nextui-org/react";
 
 export const Section_AboutMe = () => {
@@ -8,9 +8,6 @@ export const Section_AboutMe = () => {
             <section className="w-full min-h-screen h-full relative">
                 <div className="flex items-end w-full h-full absolute left-[-160px] bottom-[0]">
                     <Image
-                        as={NextImage}
-                        width={2345}
-                        height={3000}
                         removeWrapper
                         alt="Chica astronauta"
                         className="max-x-[2345px] max-h-[3000px] w-full sm:w-3/4 md:w-2/3 lg:w-3/5 xl:w-1/2 h-full -z-0"

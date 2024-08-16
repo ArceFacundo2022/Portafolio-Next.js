@@ -1,7 +1,6 @@
 'use client'
 
 import { Tooltip, Image, Button } from "@nextui-org/react";
-import NextImage from "next/image";
 import { SiFigma, SiGithub, SiLinkedin, SiMaildotru } from "react-icons/si";
 
 export const Section_Hero = () => {
@@ -154,15 +153,12 @@ export const Section_Hero = () => {
           <Image
             classNames={{
               wrapper: "-z-0 ",
-              img: "-z-0",
+              img: "-z-0 w-full h-auto",
               zoomedWrapper: "-z-0",
               blurredImg: "-z-0",
             }}
-            as={NextImage}
             src={"/img/foto_porta_2.webp"}
             alt="Foto de portafolio principal"
-            width={680}
-            height={760}
             isBlurred
           />
         </div>

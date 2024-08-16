@@ -1,5 +1,3 @@
-import NextImage from "next/image";
-
 import { Image } from "@nextui-org/react";
 
 export const Stage_Experience_RaM = () => {
@@ -18,9 +16,6 @@ export const Stage_Experience_RaM = () => {
                                     </div>
                                     <div className="order-[0] sm:col-span-2 flex justify-center items-center">
                                         <Image
-                                            as={NextImage}
-                                            width={240}
-                                            height={240}
                                             removeWrapper
                                             alt="Icono Rick and Morty"
                                             className="max-w-[240px] max-h-[240px] sm:w-full sm:h-auto 2xs:w-2/5 w-3/5"

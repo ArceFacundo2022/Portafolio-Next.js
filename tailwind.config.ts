@@ -25,6 +25,13 @@ const config: Config = {
         'xs': '475px',
         '2xs': '300px',
       },
+      colors: {
+        DC_woodLogo: "#BC976C",
+        DC_greenT: "#7ACAB4",
+        DC_freshMint:'rgb(50, 178, 166)',
+        DC_softWood: "#DECBB5",
+        DC_Celeste: "#89E4CA"
+      },
     },
   },
   darkMode: "class",

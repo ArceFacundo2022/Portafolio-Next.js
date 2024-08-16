@@ -1,4 +1,3 @@
-import NextImage from "next/image";
 import { Image } from "@nextui-org/react";
 
 export const Section_Studies = () => {
@@ -12,9 +11,6 @@ export const Section_Studies = () => {
                 <article className="border-2 border-blue-600 rounded-lg grid grid-rows-3 grid-cols-1 2xs:grid-rows-2 sm:grid-cols-5 sm:grid-rows-1 gap-3">
                     <div className="col-span-1 row-span-1 rounded-tl-lg rounded-tr-lg rounded-bl-none sm:rounded-tr-none sm:rounded-bl-lg bg-white flex justify-center items-center content-center p-3">
                         <Image
-                            as={NextImage}
-                            width={800}
-                            height={680}
                             removeWrapper
                             alt="Logo Instituto Politecnico Formosa"
                             className="max-x-[800px] max-h-[680px] sm:w-auto sm:h-auto xs:w-1/3 w-1/2"
@@ -35,9 +31,6 @@ export const Section_Studies = () => {
                 <article className="border-2 border-blue-600 rounded-lg grid grid-rows-3 grid-cols-1 2xs:grid-rows-2 sm:grid-cols-5 sm:grid-rows-1 gap-3">
                     <div className="col-span-1 row-span-1 rounded-tl-lg rounded-tr-lg rounded-bl-none sm:rounded-tr-none sm:rounded-bl-lg bg-white flex justify-center items-center content-center p-3">
                         <Image
-                            as={NextImage}
-                            width={525}
-                            height={450}
                             removeWrapper
                             alt="Logo Instituto universitario IES siglo 21"
                             className=" max-x-[525px] max-h-[450px] sm:w-auto sm:h-auto xs:w-1/3 w-1/2"
@@ -57,9 +50,6 @@ export const Section_Studies = () => {
                 <article className="border-2 border-blue-600 rounded-lg grid grid-rows-3 grid-cols-1 2xs:grid-rows-2 sm:grid-cols-5 sm:grid-rows-1 gap-3">
                     <div className="col-span-1 row-span-1 rounded-tl-lg rounded-tr-lg rounded-bl-none sm:rounded-tr-none sm:rounded-bl-lg bg-white flex justify-center items-center content-center p-3">
                         <Image
-                            as={NextImage}
-                            width={168}
-                            height={168}
                             removeWrapper
                             alt="Logo IAC (Instituto Argentino de Computacion)"
                             className=" max-x-[168] max-h-[168px] sm:w-auto sm:h-auto xs:w-1/3 w-1/2"
@@ -87,9 +77,6 @@ export const Section_Studies = () => {
                 <div className="absolute w-full flex justify-end">
                     <div>
                         <Image
-                            as={NextImage}
-                            width={1295}
-                            height={3000}
                             removeWrapper
                             alt="Chico jugando distraido"
                             className=" max-x-[1295px] max-h-[3000px] w-full h-[75vh] -z-0"

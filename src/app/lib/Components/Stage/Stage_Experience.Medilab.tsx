@@ -1,4 +1,3 @@
-import NextImage from "next/image";
 import { Image } from "@nextui-org/react"
 
 export const Stage_Experience_Medilab = () => {
@@ -23,9 +22,6 @@ export const Stage_Experience_Medilab = () => {
                                 </p>
                             </div>
                             <Image
-                                as={NextImage}
-                                width={1600}
-                                height={1000}
                                 removeWrapper
                                 alt="Card MediLab project"
                                 className="w-full h-full object-cover"

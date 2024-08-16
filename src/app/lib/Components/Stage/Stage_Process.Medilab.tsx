@@ -1,5 +1,4 @@
 import { Image } from '@nextui-org/react'
-import NextImage from "next/image";
 
 export const Stage_Process_Medilab = () => {
   return (
@@ -25,9 +24,6 @@ export const Stage_Process_Medilab = () => {
                 <div className="hidden xs:block xs:col-span-3 sm:col-span-2">
                     <Image
                         removeWrapper
-                        as={NextImage}
-                        width={1090}
-                        height={1930}
                         alt="Arquitectura del proyecto"
                         className="max-w-[545px] max-h-[965px] w-full h-full"
                         src="/img/Arquitectura.webp"

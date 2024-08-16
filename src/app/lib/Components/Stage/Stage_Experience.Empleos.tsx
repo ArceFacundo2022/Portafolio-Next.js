@@ -1,4 +1,3 @@
-import NextImage from "next/image";
 import { Image } from "@nextui-org/react"
 
 export const Stage_Experience_Empleos = () => {
@@ -23,9 +22,6 @@ export const Stage_Experience_Empleos = () => {
                                 </p>
                             </div>
                             <Image
-                                as={NextImage}
-                                width={4030}
-                                height={2180}
                                 removeWrapper
                                 alt="Presentacion final de Empleos Formosa"
                                 className="w-full h-full object-cover"

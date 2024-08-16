@@ -1,4 +1,3 @@
-import NextImage from "next/image";
 import { Image } from "@nextui-org/react";
 
 export const Stage_Process_RaM = () => {
@@ -28,23 +27,17 @@ export const Stage_Process_RaM = () => {
                                     <div className="grid grid-rows-2 grid-cols-1 sm:grid-rows-1 sm:grid-cols-2 gap-3">
                                         <div>
                                             <Image
-                                                as={NextImage}
-                                                width={1344}
-                                                height={554}
                                                 removeWrapper
                                                 alt="Card MediLab project"
-                                                className="w-full h-full"
+                                                className="w-full h-full max-w-[1344px] max-h-[554px]"
                                                 src="/img/Esquema_RaM.webp"
                                             />
                                         </div>
                                         <div>
                                             <Image
                                                 removeWrapper
-                                                as={NextImage}
-                                                width={974}
-                                                height={463}
                                                 alt="Card MediLab project"
-                                                className="w-full h-full"
+                                                className="w-full h-full max-w-[974px] max-h-[463px]"
                                                 src="/img/Esquema_RaM_2.webp"
                                             />
                                         </div>

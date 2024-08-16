@@ -1,5 +1,4 @@
 import { Image } from "@nextui-org/react"
-import NextImage from "next/image";
 
 export const Stage_Process_Empleos = () => {
   return (
@@ -26,9 +25,6 @@ export const Stage_Process_Empleos = () => {
                             </div>
                             <div>
                                 <Image
-                                    as={NextImage}
-                                    width={1370}
-                                    height={770}
                                     removeWrapper
                                     alt="Modal con informacion del postulante"
                                     className="w-full h-full max-w-[1370px] max-h-[770px]"
