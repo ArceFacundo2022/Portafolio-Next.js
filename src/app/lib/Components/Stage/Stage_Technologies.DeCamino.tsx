@@ -27,8 +27,8 @@ export const Stage_Technologies_DeCamino = () => {
             <div className="md:hidden rounded-2xl bg-slate-950 flex justify-center items-center border-4 border-DC_woodLogo overflow-hidden">
                 <ImageGallery
                     items={[{
-                        original: "/img/Certificado-Igrowker.webp",
-                        thumbnail: "/img/Certificado-Igrowker.webp",
+                        original: "/img/certificado-igrowker.webp",
+                        thumbnail: "/img/certificado-igrowker.webp",
                     }]}
                     showPlayButton={false}
                     showThumbnails={false}
@@ -317,8 +317,8 @@ export const Stage_Technologies_DeCamino = () => {
             <div className="rounded-2xl bg-slate-950 flex justify-center items-center border-4 border-DC_woodLogo overflow-hidden">
                 <ImageGallery
                     items={[{
-                        original: "/img/Certificado-Igrowker.webp",
-                        thumbnail: "/img/Certificado-Igrowker.webp",
+                        original: "/img/certificado-igrowker.webp",
+                        thumbnail: "/img/certificado-igrowker.webp",
                     }]}
                     showPlayButton={false}
                     showThumbnails={false}
