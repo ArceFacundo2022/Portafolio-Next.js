@@ -21,20 +21,21 @@ export const Section_AboutMe = () => {
                         </header>
                         <div className="about-me-text text-white font-Poppins text-sm gap-3 p-5 flex flex-col relative rounded-lg bg-black border-2 border-cyan-700/75 " >
                             <p className=" rounded-lg bg-black">
-                                Buenas tardes, días o noches ☕. Es un placer, me llamo Facundo un <span className="text-cyan-300">soñador</span> desde que tengo memoria ⭐.
+                                Buenas tardes, días o noches ☕. Es un placer, me llamo Facundo un <span className="text-cyan-300">soñador</span> y <span className="text-cyan-300">artista</span> desde que tengo memoria ⭐.
                             </p>
                             <p className=" rounded-lg bg-black">
-                                Comencé programando gracias a los videojuegos <span className="text-cyan-300">hace más de 8 años.</span> Hoy continúo desarrollado y terminando proyectos complejos desde cero.
+                                Comencé programando gracias a los videojuegos hace <span className="text-cyan-300">más de 8 años.</span> Y Hoy lidero equipos de JRs en proyectos desarrollados desde 0.
                             </p>
                             <p className=" rounded-lg bg-black">
-                                Durante mi cursado estricto logre terminar 2 proyectos finales cuyas problemáticas respondían a las <span className="text-cyan-300">necesidades de la provincia.</span> Destacando 
-                                el proyecto <span className="text-cyan-300">Empleos Formosa</span> el cual lo desarrollamos con <span className="text-cyan-300">supervisión y feedback</span> de la propia subsecretaria de empleo del gobierno de Formosa
+                                Durante mi trayectoria termine proyectos que <span className="text-cyan-300">resolvían algunas de las problemáticas de mi provincia</span> y supliendo las necesidades de nuestros clientes. 
+                                Tuve la increíble experiencia de <span className="text-cyan-300">liderar un equipo entero de desarrolladores FrontEnd Jrs</span> y trabajar como cabecera junto a los demás 
+                                departamentos en un <span className="text-cyan-300">proyecto remoto en España.</span>
                             </p>
                             <p className=" rounded-lg bg-black">
                                 Día a día busco <span className="text-cyan-300">descubrir un poco más de este mundo</span>, maravillándome con todo y mejorándome continuamente sin limitarme solo a la programación. 
                             </p>
                             <p className=" rounded-lg bg-black">
-                                <span className="text-cyan-300">Dejame con una buena taza de cafe y musica, para verme escribiendo y aprendiendo soñando hasta caer rendido.</span>
+                                <span className="text-cyan-300">Déjame con una buena taza de café y música, para verme escribiendo y aprendiendo soñando hasta caer rendido.</span>
                             </p>
                         </div>
                     </article>

@@ -22,8 +22,10 @@ export const Section_Viewer_Project = () => {
 
   const [selectedStage, setSelectedStage] = useState({...initialState, description:true})
   return (
-    <section className="border-2 border-DC_woodLogo bg-DC_softWood/20 rounded-lg h-[488px] w-full mb-12 shadow-xl shadow-DC_woodLogo/50 flex">
-          <article className="w-auto h-full flex flex-col gap-4 p-2 bg-DC_softWood/40 rounded-l-lg border-r-2 border-DC_woodLogo">
+        <section className="border-2 border-DC_woodLogo bg-DC_softWood/20 rounded-lg h-[488px] w-full mb-12 shadow-xl shadow-DC_woodLogo/50 
+        flex flex-col md:flex-row overflow-hidden"
+        >
+          <article className="w-full h-auto md:w-auto md:h-full flex flex-row md:flex-col gap-4 p-2 bg-DC_softWood/40 max-md:rounded-t-lg border-b-2 md:rounded-l-lg md:border-r-2 border-DC_woodLogo md:justify-start justify-center">
             <div className="">
               <Button 
               size="md" isIconOnly aria-label="Video/Descripcion" 
@@ -61,10 +63,12 @@ export const Section_Viewer_Project = () => {
               </Button>
             </div>
           </article>
-          {selectedStage.description && (<Stage_Description_DeCamino/>)}
-          {selectedStage.process && (<Stage_Process_DeCamino/>)}
-          {selectedStage.tech && (<Stage_Technologies_DeCamino/>)}
-          {selectedStage.experience && (<Stage_Experience_DeCamino/>)}
+            <div className="h-full w-full overflow-hidden overflow-y-scroll scrollbar-hide">
+              {selectedStage.description && (<Stage_Description_DeCamino/>)}
+              {selectedStage.process && (<Stage_Process_DeCamino/>)}
+              {selectedStage.experience && (<Stage_Experience_DeCamino/>)}
+              {selectedStage.tech && (<Stage_Technologies_DeCamino/>)}
+            </div>
         </section>
   )
 }

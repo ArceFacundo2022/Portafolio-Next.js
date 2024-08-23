@@ -1,4 +1,5 @@
 import { Image } from "@nextui-org/react";
+import Igrowker_Logo from "@/assets/icons/Igrowkers.webp"
 
 export const Section_Studies = () => {
   return (
@@ -69,11 +70,46 @@ export const Section_Studies = () => {
 
         </section>
 
-        <section className="col-span-1">
+        <section className="col-span-1 relative w-full">
             <header className="pt-20 pb-10 flex align-middle justify-center">
                 <h1 className=" font-Vollkorn text-3xl text-white border-b-2 border-blue-600">{" EXPERIENCIA "}</h1>
             </header>
-            <main className="p-5 rounded-lg relative">
+                <div className="absolute hidden w-full h-[80vh] xl:h-[75vh] lg:flex justify-end items-end">
+                    <div>
+                        <Image
+                            isBlurred
+                            shadow="lg"
+                            removeWrapper
+                            alt="Chico jugando distraido"
+                            className=" max-x-[1295px] max-h-[3000px] w-full h-[45vh] xl:h-[50vh] -z-0"
+                            style={{ maskImage: 'linear-gradient(black 40%, transparent)' }}
+                            src="/img/astronauta_Igrowker.webp"
+                        />
+                    </div>
+                </div>
+            <main className="bg-blue-950/55 p-3 rounded-lg flex flex-col gap-3">
+                <article className="border-2 border-blue-600 rounded-lg grid grid-rows-3 grid-cols-1 2xs:grid-rows-2 sm:grid-cols-5 sm:grid-rows-1 gap-3">
+                    <div className="col-span-1 row-span-1 rounded-tl-lg rounded-tr-lg rounded-bl-none sm:rounded-tr-none sm:rounded-bl-lg bg-white flex justify-center items-center content-center p-3">
+                        <Image
+                            removeWrapper
+                            alt="Logo Igrowker"
+                            className="max-x-[800px] max-h-[680px] sm:w-auto sm:h-auto xs:w-1/3 w-1/2"
+                            src={Igrowker_Logo.src}
+                        />
+                    </div>
+                    <div className="col-span-1 row-span-2 2xs:row-span-1 sm:row-span-1 sm:col-span-4 text-sm xl:text-tiny 2xl:text-sm text-slate-400/75 py-3 pr-3 pl-3 sm:pr-3 sm:pl-0">
+                        <h2 className="text-lg xl:text-medium 2xl:text-lg font-semibold font-Vollkorn text-cyan-500 pb-2">{"DeCamino - Igrowker (2024)"}</h2>
+                        <p>Entrenamiento intenso de 1 mes el cual desempeñe el rol de Desarrollador FrontEnd Lider, dirigiendo al equipo FrontEnd y trabajando en un proyecto desde 0 con un equipo de 11 personas</p>
+                        <div className="flex justify-between gap-3 font-thin pt-2 text-cyan-500/40">
+                            <p>Mayo 2024 a Julio 2024</p>
+                            <p>{"(Remoto) Valencia / España"}</p>
+                        </div>
+                    </div>
+                    
+                </article>
+            </main>
+
+            <main className="hidden p-5 rounded-lg relative">
                 <div className="absolute w-full flex justify-end">
                     <div>
                         <Image

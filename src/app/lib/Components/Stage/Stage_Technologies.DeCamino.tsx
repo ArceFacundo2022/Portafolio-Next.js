@@ -5,22 +5,33 @@ import { SiReact, SiNextui, SiLeaflet, SiRedux, SiAxios, SiJsonwebtokens, SiVite
     SiTypescript, SiJavascript, SiHtml5, SiTailwindcss, SiCss3, SiPostman, SiNodedotjs,
     SiMongodb, SiCloudinary, SiExpress, SiMongoose,
     SiFigma,
+    SiVercel,
  } from "react-icons/si"
 import { FaCcStripe } from "react-icons/fa";
 import ImageGallery from 'react-image-gallery';
 
 export const Stage_Technologies_DeCamino = () => {
   return (
-    <article className="grid grid-cols-6 w-full h-full gap-4 p-4 overflow-hidden">
+    <article className="flex flex-col md:grid md:grid-cols-6 w-full h-auto md:h-full gap-4 p-4 overflow-hidden">
         <div className="flex flex-col col-span-4 gap-2">
             <div className="flex w-full justify-center items-center gap-2">
-                <h2 className="text-white text-center text-4xl">{"DeCamino - Igrowker (2024)"}</h2>
+                <h2 className="text-white text-center text-xl xs:text-2xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-4xl">{"DeCamino - Igrowker (2024)"}</h2>
                 <Image
                     classNames={{
-                        img: "w-[64px] h-[64px]"
+                        img: "w-[40px] h-[40px] xs:w-[48px] xs:h-[48px] sm:w-[56px] sm:h-[56px] md:w-[48px] md:h-[48px] lg:w-[56px] lg:h-[56px] xl:w-[64px] xl:h-[64px]"
                     }}
                     src={Igrowker_Logo.src}
                     alt="Logo de Igrowker"
+                />
+            </div>
+            <div className="md:hidden rounded-2xl bg-slate-950 flex justify-center items-center border-4 border-DC_woodLogo overflow-hidden">
+                <ImageGallery
+                    items={[{
+                        original: "/img/Certificado-Igrowker.webp",
+                        thumbnail: "/img/Certificado-Igrowker.webp",
+                    }]}
+                    showPlayButton={false}
+                    showThumbnails={false}
                 />
             </div>
             <div className="flex justify-center w-full">
@@ -111,14 +122,14 @@ export const Stage_Technologies_DeCamino = () => {
                     </Tooltip>
                     <Tooltip
                         placement="top"
-                        content="HTML5"
+                        content="Vercel"
                         showArrow
                         classNames={{
                             content:"bg-DC_woodLogo border-2 border-white text-white"
                         }}
                     >
                         <div className="rounded-full border-2 border-white flex justify-center items-center text-white text-2xl xs:text-3xl bg-gradient-to-br  from-[#2C594B]/45 to-[#2C594B] w-12 h-12 xs:w-14 xs:h-14">
-                            <SiReact/>
+                            <SiVercel/>
                         </div>
                     </Tooltip>
                     <Tooltip
@@ -302,7 +313,7 @@ export const Stage_Technologies_DeCamino = () => {
                 </div>
             </div>
         </div>
-        <div className="col-span-2 flex justify-center items-center">
+        <div className="hidden md:col-span-2 md:flex justify-center items-center">
             <div className="rounded-2xl bg-slate-950 flex justify-center items-center border-4 border-DC_woodLogo overflow-hidden">
                 <ImageGallery
                     items={[{

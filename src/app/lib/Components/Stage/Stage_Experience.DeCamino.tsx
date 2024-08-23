@@ -89,9 +89,9 @@ export const Stage_Experience_DeCamino = () => {
 
 
   return (
-    <article className="grid w-full h-full grid-cols-8 gap-2">
-            <div className="col-span-3 border-r-3 border-DC_woodLogo rounded-r-2xl overflow-hidden overflow-y-scroll scrollbar-hide">
-                <div className="bg-white flex justify-center items-center pt-4 rounded-tr-2xl">
+    <article className="flex flex-col md:grid w-full h-auto md:h-full md:grid-cols-8 gap-2">
+            <div className="order-2 md:order-1 md:col-span-3 border-r-0 md:border-r-3 border-DC_woodLogo rounded-none md:rounded-r-2xl overflow-hidden overflow-y-scroll scrollbar-hide">
+                <div className="bg-white flex justify-center items-center pt-4 rounded-none md:rounded-tr-2xl">
                     <Image
                     classNames={{
                         img: "max-w-[128px] max-h-[128px] border-4 rounded-full border-DC_woodLogo"
@@ -111,18 +111,18 @@ export const Stage_Experience_DeCamino = () => {
                     </pre>
                 </div>
             </div>
-            <div className="col-span-5 flex flex-col justify-center items-center overflow-y-auto gap-2 py-4 pr-4 h-full">
+            <div className="order-1 md:order-2 md:col-span-5 flex flex-col justify-center items-center overflow-y-auto gap-2 py-4 pr-4 h-full">
               <div className="flex w-full justify-center items-center gap-2 pt-2 px-6">
-                  <h2 className="text-white text-center text-3xl">{"DeCamino - Igrowker (2024)"}</h2>
+                  <h2 className="text-white text-center text-xl xs:text-2xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-4xl">{"DeCamino - Igrowker (2024)"}</h2>
                   <Image
                       classNames={{
-                          img: "w-[48px] h-[48px]"
+                          img: "w-[40px] h-[40px] xs:w-[48px] xs:h-[48px] sm:w-[56px] sm:h-[56px] md:w-[48px] md:h-[48px] lg:w-[56px] lg:h-[56px] xl:w-[64px] xl:h-[64px]"
                       }}
                       src={Igrowker_Logo.src}
                       alt="Logo de Igrowker"
                   />
               </div>
-              <div className="w-full gap-2 px-4 py-1 grid grid-cols-2 bg-DC_softWood border-2 rounded-2xl border-DC_woodLogo overflow-y-auto scrollbar-hide">
+              <div className="w-full gap-2 px-4 py-1 grid grid-cols-1 min-[550px]:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 bg-DC_softWood border-2 rounded-2xl border-DC_woodLogo overflow-y-auto scrollbar-hide">
                   {team.map((member, i) => (
                       <div key={i} className="p-1 col-span-1 gap-1 rounded-lg bg-gradient-to-br flex justify-between from-[#2C594B]/45 to-[#2C594B]">
                           <div className="flex gap-2 w-full">
